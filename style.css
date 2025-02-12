@@ -118,7 +118,31 @@ body {
     padding: 0;
 }
 
-.sidebar ul li
+.sidebar ul li a
 {
-    
+    padding: 0%;
+    color: rgb(0, 0, 0);
+    width: auto;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+
+}
+
+.sidebar u li a:hover
+{
+    color: blue;
+    transition: none;
+
+
+}
+
+.footer
+{
+    grid-area: footer;
+    background-color: green;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
 }
